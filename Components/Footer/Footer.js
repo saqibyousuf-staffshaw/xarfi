@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../Constants/Container'
 import Image from 'next/image'
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaTiktok } from "react-icons/fa";
 import { LinkedInIcons } from '../Constants/Icons';
 import { AiFillTwitterCircle } from "react-icons/ai";
 import Link from 'next/link';
@@ -17,9 +17,9 @@ function Footer() {
                         </div>
                         <div className='social'>
                             <div className='flex gap-5 text-white'>
-                                <LinkedInIcons width='30px' height='30px' className={'w-[30px] h-[30px]'} />
-                                <FaFacebook width='30px' height='30px' className={'w-[30px] h-[30px]'} />
-                                <AiFillTwitterCircle width='30px' height='30px' className={'w-[30px] h-[30px]'} />
+                                <FaTiktok width='20px' height='20px' className={'w-[20px] h-[20px]'} />
+                                <FaInstagram width='20px' height='20px' className={'w-[20px] h-[20px]'} />
+                                <FaLinkedinIn width='20px' height='20px' className={'w-[20px] h-[20px]'} />
 
                             </div>
                         </div>

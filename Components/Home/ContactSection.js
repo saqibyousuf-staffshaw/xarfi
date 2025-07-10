@@ -116,13 +116,13 @@ function ContactSection() {
                 <div className='py-[93px] md:px-10 px-5 bg-cover bg-[#FF8C26] bg-no-repeat rounded-[40px]' style={{ backgroundImage: `url('/assets/images/contactBg.png')` }}>
                     <div className='flex justify-between items-center lg:flex-row flex-col'>
                         <div className='content max-w-[561px] w-full'>
-                            <Image width={281} height={235.49} alt='announce.png' src={'/assets/images/Illustration.png'} />
-                            <h5 className='font-bold md:text-[58px] text-[40px] leading-[100%] tracking-[0] align-middle font-urbanist text-white mt-[11px]'>The Spot You Want Could Be Yours</h5>
-                            <p className='font-medium text-[22px] leading-[100%] tracking-[0] align-middle font-urbanist text-white mt-[11px]'>Let your salon grow stronger, and let your clients get exactly what they want without any wait. Take the next step; join the experience today and make every moment count.
+                            <Image width={281} height={235.49} alt='announce.png' src={'/assets/images/Illustration.png'} data-aos="zoom-in"/>
+                            <h5 className='font-bold md:text-[58px] text-[40px] leading-[100%] tracking-[0] align-middle font-urbanist text-white mt-[11px]' data-aos="fade-right">The Spot You Want Could Be Yours</h5>
+                            <p className='font-medium text-[22px] leading-[100%] tracking-[0] align-middle font-urbanist text-white mt-[11px]' data-aos="fade-right">Let your salon grow stronger, and let your clients get exactly what they want without any wait. Take the next step; join the experience today and make every moment count.
                             </p>
                         </div>
                         <div className='form max-w-[586px] w-full'>
-                            <form className='w-full' onSubmit={handleSubmit}>
+                            <form className='w-full' onSubmit={handleSubmit} data-aos="fade-in" data-aos-delay="500">
                                 <p className='font-normal text-[22px] leading-[100%] tracking-[0] align-middle font-urbanist w-full text-white mb-5'>Please fill the details</p>
                                 <div className='flex flex-wrap justify-between'>
                                     <label className='mb-[15px] w-[calc(50%-3px)]'>
