@@ -2,7 +2,7 @@ import { Geist, Geist_Mono, Urbanist } from "next/font/google";
 import "./globals.css";
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
-import { Toaster } from "@/components/ui/sonner";
+import { Toaster } from "@/Components/ui/sonner";
 
 const urbanist = Urbanist({
   variable: "--font-urbanist",
