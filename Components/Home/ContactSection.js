@@ -65,12 +65,12 @@ function ContactSection() {
             return;
         }
 
-        if (!data.companyName.trim()) {
-            setLoader(false)
+        // if (!data.companyName.trim()) {
+        //     setLoader(false)
 
-            toast.error("Company Name is required");
-            return;
-        }
+        //     toast.error("Company Name is required");
+        //     return;
+        // }
 
         // Prepare form data
         const formData = new URLSearchParams();
@@ -153,7 +153,7 @@ function ContactSection() {
                                         />
                                     </label>
                                     <label className='mb-[15px] w-[100%]'>
-                                        <input value={data.phoneNumber} placeholder='Phone Number' className='w-full px-[15px] h-[56px] border-none text-[#777777] rounded-2xl bg-white font-semibold text-[16px] leading-[14px] tracking-[0] font-urbanist '
+                                        <input type='tel' value={data.phoneNumber} placeholder='Phone Number' className='w-full px-[15px] h-[56px] border-none text-[#777777] rounded-2xl bg-white font-semibold text-[16px] leading-[14px] tracking-[0] font-urbanist '
                                             onChange={(e) => {
                                                 let obj = { ...data }
                                                 obj.phoneNumber = e.target.value
