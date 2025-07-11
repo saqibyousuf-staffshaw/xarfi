@@ -116,7 +116,20 @@ function ContactSection() {
                 <div className='py-[93px] md:px-10 px-5 bg-cover bg-[#FF8C26] bg-no-repeat rounded-[40px]' style={{ backgroundImage: `url('/assets/images/contactBg.png')` }}>
                     <div className='flex justify-between items-center lg:flex-row flex-col'>
                         <div className='content max-w-[561px] w-full'>
-                            <Image width={281} height={235.49} alt='announce.png' src={'/assets/images/Illustration.png'} data-aos="zoom-in"/>
+                            <div className='w-[281px] h-[235.49px] flex justify-center relative'>
+                            <Image width={161.19} height={173.97} alt='announce.png' className='absolute top-0 left-[72.88px] z-20' src={'/assets/images/mic.png'} data-aos="zoom-in" data-aos-delay="1400"/>
+                            <Image width={267.99} height={56.29} alt='ellipse.png' className='absolute top-[30px] left-[16.15px] z-10' src={'/assets/images/ellipse.png'} data-aos="flip-left" data-aos-delay="500" />
+                            <Image width={267.99} height={56.29} alt='ellipse.png' className='absolute top-[50px] left-[9.57px] z-10' src={'/assets/images/ellipse.png'} data-aos="flip-left" data-aos-delay="700" />
+                            <Image width={267.99} height={56.29} alt='ellipse.png' className='absolute top-[70px] left-[0px] z-10' src={'/assets/images/ellipse.png'} data-aos="flip-left" data-aos-delay="900" />
+                            <Image width={32.59} height={32.59} alt='ellipse.png' className='absolute top-[140.35px] left-[27.94px] movementAnimation' src={'/assets/images/star.png'} data-aos="zoom-in" data-aos-delay="500" />
+                            <Image width={17} height={17} alt='ellipse.png' className='absolute bottom-[15.61px] rotate-45 right-[125.48px] movementAnimation' src={'/assets/images/star.png'} data-aos="zoom-in" data-aos-delay="700" />
+                            <Image width={9.47} height={9.47} alt='ellipse.png' className='absolute bottom-[33px] rotate-45 right-[77px] z-0 movementAnimation' src={'/assets/images/brownCircle.png'} data-aos="zoom-in" data-aos-delay="900" />
+                            <Image width={14.67} height={14.67} alt='ellipse.png' className='absolute top-[22.88px] rotate-45 left-[40.9px] z-20 movementAnimation' src={'/assets/images/brownCircle.png'} data-aos="zoom-in" data-aos-delay="1100" />
+                            <Image width={22.24} height={22.24} alt='ellipse.png' className='absolute top-[0px] rotate-45 left-[17.45px] z-20 movementAnimation' src={'/assets/images/blackCircle.png'} data-aos="zoom-in" data-aos-delay="1300" />
+                            {/* 
+                            <Image width={267.99} height={56.29} alt='ellipse.png' className='absolute top-0 left-[72.88px]' src={'/assets/images/ellipse.png'} /> */}
+                            </div>
+                            {/* <Image width={281} height={235.49} alt='announce.png' src={'/assets/images/Illustration.png'} data-aos="zoom-in"/> */}
                             <h5 className='font-bold md:text-[58px] text-[40px] leading-[100%] tracking-[0] align-middle font-urbanist text-white mt-[11px]' data-aos="fade-right">The Spot You Want Could Be Yours</h5>
                             <p className='font-medium text-[22px] leading-[100%] tracking-[0] align-middle font-urbanist text-white mt-[11px]' data-aos="fade-right">Let your salon grow stronger, and let your clients get exactly what they want without any wait. Take the next step; join the experience today and make every moment count.
                             </p>
